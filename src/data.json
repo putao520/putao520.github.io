@@ -1,0 +1,42 @@
+{
+	"title": "葡萄超自动化机器人",
+	"description": "葡萄超自动化机器人",
+	"home":"http://rpa.putao282.com",
+	"git":{
+		"url":"https://github.com/putao520/grape-rpa-client"
+	},
+	"icon": "icon.png",
+	"soft":{
+		"windows":{
+			"download":"http://101.200.218.142:9000/rpa/0.0.7/grape-rpa-0.0.7%20Setup.exe",
+			"version":"0.0.7",
+			"label":"下载",
+			"icon":"windows",
+			"desc":"Windows (exe)"
+		},
+		"mac":{
+			"download":"http://101.200.218.142:9000/rpa/0.0.7/grape-rpa-0.0.7%20Setup.exe",
+			"version":"0.0.7",
+			"label":"下载",
+			"icon":"mac",
+			"desc":"macOS (dmg)"
+		},
+		"linux":{
+			"download":"http://101.200.218.142:9000/rpa/0.0.7/grape-rpa-0.0.7%20Setup.exe",
+			"version":"0.0.7",
+			"label":"下载",
+			"icon":"linux",
+			"desc":"Linux (AppImage)"
+		},
+		"unknow":{
+			"download":"http://",
+			"version":"0.0.0",
+			"label":"不支持",
+			"icon":"unknow"
+		}
+	},
+	"seo":{
+		"keywords":"grape rpa,rpa,数字员工,数字雇员,葡萄rpa,ai,chatgpt,超自动化",
+		"description":"葡萄超自动化机器人，是一款基于人工智能的超自动化机器人，通过自然语言交互，实现自动化办公，自动化运营，自动化服务，自动化销售等。"
+	}
+}

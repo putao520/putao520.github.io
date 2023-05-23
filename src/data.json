@@ -8,21 +8,21 @@
 	"icon": "icon.png",
 	"soft":{
 		"windows":{
-			"download":"http://101.200.218.142:9000/rpa/0.0.7/grape-rpa-0.0.7%20Setup.exe",
+			"download":"https://github.com/putao520/grape-rpa-client/releases/download/0.0.7/grape-rpa-0.0.7.Setup.exe",
 			"version":"0.0.7",
 			"label":"下载",
 			"icon":"windows",
 			"desc":"Windows (exe)"
 		},
 		"mac":{
-			"download":"http://101.200.218.142:9000/rpa/0.0.7/grape-rpa-0.0.7%20Setup.exe",
+			"download":"https://github.com/putao520/grape-rpa-client/releases/download/0.0.7/grape-rpa-0.0.7.Setup.exe",
 			"version":"0.0.7",
 			"label":"下载",
 			"icon":"mac",
 			"desc":"macOS (dmg)"
 		},
 		"linux":{
-			"download":"http://101.200.218.142:9000/rpa/0.0.7/grape-rpa-0.0.7%20Setup.exe",
+			"download":"https://github.com/putao520/grape-rpa-client/releases/download/0.0.7/grape-rpa-0.0.7.Setup.exe",
 			"version":"0.0.7",
 			"label":"下载",
 			"icon":"linux",

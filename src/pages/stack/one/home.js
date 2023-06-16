@@ -1,11 +1,11 @@
-import {useState} from 'react';
 import data from '@/data.json';
-import DownAcrossSvg from '@assets/svg/down-across';
 import ScreensShot2x from '@assets/images/screenshot-001@2x.png';
-import browser from "browser-tool";
+import DownAcrossSvg from '@assets/svg/down-across';
+import LinuxSvg from '@assets/svg/linux';
 import MacSvg from '@assets/svg/mac';
 import WindowSvg from '@assets/svg/window';
-import LinuxSvg from '@assets/svg/linux';
+import browser from "browser-tool";
+import { useState } from 'react';
 
 export default function Home() {
     const browserInfo = browser();
@@ -29,17 +29,14 @@ export default function Home() {
     }
 
     const label = loadDownloadBlock()
-    const [softList, setSoftList] = useState(data.soft)
+    const [softList] = useState(data.soft)
     const softListEl = Object.keys(softList).filter(key=>(key !== 'unknow' && key !== label)).map(key=>{
         const item = softList[key]
         return <li key={key}><i>{iconList[key]()}</i><span>{item.desc}</span></li>
     })
 
 
-    const [downloadBlock, setDownloadBlock] = useState(data.soft[label])
-    const more = ()=>{
-        return <span>了解更多</span>
-    }
+    const [downloadBlock] = useState(data.soft[label])
 
     const [platformListState, setPlatformListState] = useState(false)
     const platformList = ()=>{
@@ -91,7 +88,7 @@ export default function Home() {
                         </div>
                     </div>
                     <p className="other-links">
-                        <a href={data.git.url} target="_blank">
+                        <a href={data.git.url} target="_blank" rel="noreferrer">
                             <i><svg version="1.1" role="presentation" width="20" height="20" viewBox="0 0 24 24" className="mo-icon MoIcon">
                                 <g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0">
                                     <path fillRule="evenodd" clipRule="evenodd"

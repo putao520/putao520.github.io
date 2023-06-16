@@ -31,7 +31,7 @@
 		"unknow":{
 			"download":"http://",
 			"version":"0.0.0",
-			"label":"不支持",
+			"label":"仅支持Windows",
 			"icon":"unknow"
 		}
 	},
